@@ -11,7 +11,7 @@ A mobile app for ingredient-based recipe discovery and weekly meal planning, bui
 
 ## Prerequisites
 
-- [fnm](https://github.com/Schniz/fnm) with Node v24
+- Node v24
 - Expo Go app (SDK 54) on your phone, or an Android/iOS simulator
 - A free [Spoonacular API key](https://spoonacular.com/food-api)
 
@@ -30,12 +30,7 @@ A mobile app for ingredient-based recipe discovery and weekly meal planning, bui
    ```
    Edit `.env` and replace `your_api_key_here` with your Spoonacular key.
 
-3. **Initialize fnm** (if not already done)
-   ```bash
-   echo 'eval "$(fnm env --use-on-cd --shell bash)"' >> ~/.bashrc && source ~/.bashrc
-   ```
-
-4. **Start the app**
+3. **Start the app**
    ```bash
    npx expo start
    ```
